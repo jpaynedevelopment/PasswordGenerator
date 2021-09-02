@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Genorator</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="content">
+            <p id="title">How long do you want the password?</p>
+
+            <input type="range" min="6" max="20" id="passwordLength" oninput="numChange()">
+            <p id="lengthValue"></p>
+
+            <button onclick="generatePassword()">Generate Password</button>
+            <p id="passwordOutput" ></p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

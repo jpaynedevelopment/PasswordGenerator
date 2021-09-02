@@ -1,0 +1,11 @@
+body {
+    background-color:	#ededed;
+}
+
+#title{
+    font-size: 3em;
+}
+
+#content{
+    text-align: center;
+}
